@@ -40,7 +40,7 @@
 
 ![](https://github.com/Visemir/StepProject3/blob/main/jpg/jensworker3.jpg)
 
-●     Deploy the same pipeline from Step project 2 and check if it's working as expected.
+●     Deploy the same [pipeline](https://github.com/Visemir/StepProject3/blob/main/StepProject3) from Step project 2 and check if it's working as expected.
 
 ![](https://github.com/Visemir/StepProject3/blob/main/jpg/jenstep01.jpg)
 
