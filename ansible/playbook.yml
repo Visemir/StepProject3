@@ -3,10 +3,10 @@
   hosts: jenkins-master
   become: yes
   vars:
-    jenkins_version: '2.387.1'  # Укажите нужную версию Jenkins
+    jenkins_version: '2.387.1'  
     jenkins_agent_name: 'jenkins-agent'
-    remote_user: 'ubuntu'       # Убедитесь, что это правильный пользователь для ваших инстансов AWS
-    jenkins_master_url: 'http://{{ ansible_host }}'  # Публичный IP Jenkins мастера
+    remote_user: 'ubuntu'       
+    jenkins_master_url: 'http://{{ ansible_host }}' 
     jenkins_agent_private_ip: "{{ hostvars['jenkins-worker']['ansible_host'] }}"
 
   tasks:
